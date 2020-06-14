@@ -16,9 +16,10 @@ def join_nested_strings(aoa)
     items.each do |item|
       if item.is_a?(String)
         words << item
+        mixed_data_2 << words
       end
     end
   end
 
-  words.join(" ")
+  mixed_data_2.join(" ")
 end
