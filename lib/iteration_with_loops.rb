@@ -14,7 +14,7 @@ def join_nested_strings(aoa)
   words = []
   mixed_data_1.each do |items|
     items.each do |item|
-      if item.is_a?(String)
+      if item.is_a? String
         words << item
         mixed_data_2 << words
       end
