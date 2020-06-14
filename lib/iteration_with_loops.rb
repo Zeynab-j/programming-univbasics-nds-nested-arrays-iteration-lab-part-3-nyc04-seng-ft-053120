@@ -20,5 +20,5 @@ def join_nested_strings(aoa)
     end
   end
 
-  [words.join(" ")]
+  words.join(" ")
 end
